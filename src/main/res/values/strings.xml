@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">killem</string>
+
+    <string name="one">Fragment One</string>
+    <string name="two">Fragment Two</string>
+    <string name="three">Fragment Three</string>
+    <string name="search">Search anything</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <android.support.v4.view.PagerTabStrip
+            android:textColor="@color/tabTextColor"
+            android:layout_gravity="top"
+            android:id="@+id/pager_title_strip"
+            android:background="@color/tabBGColor"
+            android:paddingLeft="20dp"
+            android:paddingTop="2dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:background="#BDBDBD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/linearLayout">
+
+            <ImageButton
+                android:backgroundTint="#BDBDBD"
+                android:src="@drawable/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Home"/>
+
+            <ImageButton
+                android:backgroundTint="#BDBDBD"
+                android:src="@drawable/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Profile"/>
+
+            <ImageButton
+                android:backgroundTint="#BDBDBD"
+                android:src="@drawable/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="hello"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
